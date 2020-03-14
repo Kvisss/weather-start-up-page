@@ -3,25 +3,25 @@ var today = new Date();
 var weekDay = '';
 switch (today.getDay()) {
     case 0:
-        weekDay = 'Sun';
+        weekDay = 'Chủ nhật';
         break;
     case 1:
-        weekDay = 'Mon';
+        weekDay = 'Thứ Hai';
         break;
     case 2:
-        weekDay = 'Tue';
+        weekDay = 'Thứ Ba';
         break;
     case 3:
-        weekDay = 'Wed';
+        weekDay = 'Thứ Tư';
         break;
     case 4:
-        weekDay = 'Thu';
+        weekDay = 'Thứ Năm';
         break;
     case 5:
-        weekDay = 'Fri';
+        weekDay = 'Thứ Sáu';
         break;
     case 6:
-        weekDay = 'Sat';
+        weekDay = 'Thứ Bảy';
         break;
 }
 var date = weekDay + String.fromCharCode(160) + String.fromCharCode(160) + String.fromCharCode(160) + today.getDate() + '-'+ (today.getMonth() + 1) + '-' + today.getFullYear();
